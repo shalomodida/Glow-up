@@ -1,5 +1,5 @@
 body{
-    background-image:url('/home/shalom/Desktop/Glow-up/img/latest/image.png') ;  
+    background-image:url('./img/latest/image.png') ;  
     height:100vh ;
     width: 100%;
     background-repeat: no-repeat;

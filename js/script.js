@@ -9,11 +9,11 @@
 //   }
 // }
 $(document).ready(function(){
-  $("#sign-up").click(function() {
+  $("#sign-up").on('click', function() {
       event.preventDefault();
       var email=$("#email").val();
       var password=$("#password").val();
-      var reppassword=$("#reppassword").var();
+      var reppassword=$("#reppassword").val();
 
 
       if(email ==''||password ==''||reppassword ==''){
@@ -23,3 +23,4 @@ $(document).ready(function(){
           alert(" Thank you "  + " You have succesfully been signed for Glow-up collection,stay with us for unique designs.")
      }
   })
+})
