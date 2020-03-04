@@ -1,19 +1,19 @@
-// $(document).ready(function(){
-//     $("#submit").on('click', function() {
-//         event.preventDefault();
-//         var name=$("#name").val();
-//         var chest=$("#chest").val();
-//         var waist=$("#waist");
-//         var hip=$("#hip");
-//         var innerLeg=$('#inner-leg')
-//         var clothType=$('#cloth-type')
-//         if(name ==''||chest ==''||waist ==''||hip ==''||innerLeg =='' ||clothType ==''){
-//            alert("Please ensure you fill in all the fields!");
-//        }
-//         else{
-//             alert(" Thank you " + name + " we have received your details.")
-//        }
-//     })
+$(document).ready(function(){
+    $("#submit").on('click', function() {
+        event.preventDefault();
+        var name=$("#name").val();
+        var chest=$("#chest").val();
+        var waist=$("#waist");
+        var hip=$("#hip");
+        var innerLeg=$('#inner-leg')
+        var clothType=$('#cloth-type')
+        if(name ==''||chest ==''||waist ==''||hip ==''||innerLeg =='' ||clothType ==''){
+           alert("Please ensure you fill in all the fields!");
+       }
+        else{
+            alert(" Thank you " + name + " we have received your details.")
+       }
+    })
 //     var myIndex = 0;
 //           carousel();
 //           function carousel() {
