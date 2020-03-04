@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 body {
     font-family: poppins;
@@ -67,72 +68,65 @@ header .carousel-inner .item {
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px black;
+=======
+*{
+  overflow-x: hidden;
+>>>>>>> latest designs
 }
-.button:hover {
-    background-color: whitesmoke
+body {
+background-color: azure;
 }
-.button:active {
-    background-color:black;
-    box-shadow: 0 5px black;
-    transform: translateY(4px);
+.logo{
+  background-color:azure !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  font-style: italic;
 }
-.carousel-caption a:hover {
-    padding-right: 25px;
+/*#img1{
+  display: block;
+  margin: 0 10px 0;
+  float: left;
+  padding: 10px;
+  width: 200px;
+  height:300px ;
 }
-.carousel-control.right {
-    background-image: none;
+#img2{
+  display: block;
+  margin: 0 10px 0;
+  float: left;
+  padding: 10px;
+  width: 250px;
+  height: 300px;
 }
-.carousel-caption.left {
-    background-image: none;
+#img3{
+  display: block;
+  margin: 0 10px 0;
+  float: left;
+  padding: 10px;
+  width: 250px;
+  height: 300px;
 }
-.carousel-indicators .active {
-    background-color: maroon !important;
-    border-color: maroon;
+#img4{
+  display: block;
+  margin: 0 10px 0;
+  float: left;
+  padding: 10px;
+  width: 250px;
+  height: 300px;
 }
-.footer {
-    position: absolute;
-    z-index: 5;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    width: 100%;
-    color:maroon;
-    font-size: 30px;
-    font-weight: bolder;
+#img5{
+  display: block;
+  margin: 0 10px 0;
+  float: left;
+  padding: 10px;
+  width: 250px;
+  height: 300px;
 }
-.social-icons a p {
-    font-weight: bold;
-    font-family: Verdana;
-    font-size: 12px;
-    color: green;
-    margin: 0 10px;
-    min-height: 100px;
+#img5{
+  display: block;
+  margin: 0 10px 0;
+  float: left;
+  padding: 10px;
+  width: 250px;
+  height: 300px;
 }
-#image{
-    background-image: url('img/latest/20200302_171243.png');
-    background-size:contain ;
-    height: 100vh;
-    width: 100%;
-    background-repeat: no-repeat;
-}
-/* .logo{
-    float: left; */
-
- #log1{
-     position: absolute;
-     z-index: 3px;
-     left: 3px;
-    /* margin-right: 1400px;
-    float: left; */
-} 
-.carousel-inner{
-    color: greenyellow;
-}
-.search-container{
-    color: maroon;
-    align-self: center;
-      position: absolute;
-     z-index: 300px;
-     left: 300px;
-}
-
