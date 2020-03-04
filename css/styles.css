@@ -47,7 +47,7 @@ table{
   .instr p{
       font-size: larger;
   }
-  /* .demo h4{
+  .demo h4{
       font-size: x-large;
       text-transform: uppercase;
       color: blue;
@@ -74,7 +74,7 @@ table{
   #clients p{
       font-size: x-large;
   }
-  .form{
+  /* .form{
       font-size: x-large;
       float: center;
   }
@@ -97,4 +97,4 @@ table{
     margin-bottom: 5px;
     position: absolute;
   }
-   */ */ */ */
+   */ */ */ */ */
