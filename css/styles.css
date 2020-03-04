@@ -1,4 +1,4 @@
-/* table{
+table{
     border: 1px solid gray;
     border-collapse:collapse;
     margin-right: 20px;
@@ -11,7 +11,7 @@
     border-bottom: 1px solid gray;
     color: black;
   }
-  .row h3{
+  /* .row h3{
       text-align: center;
       font-size: x-large;
       font-family: 'IM Fell Great Primer SC', serif;
@@ -97,4 +97,4 @@
     margin-bottom: 5px;
     position: absolute;
   }
-   */
+   */ */
