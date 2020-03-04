@@ -11,7 +11,7 @@ table{
     border-bottom: 1px solid gray;
     color: black;
   }
-  /* .row h3{
+  .row h3{
       text-align: center;
       font-size: x-large;
       font-family: 'IM Fell Great Primer SC', serif;
@@ -30,7 +30,7 @@ table{
       font-family: 'Noto Serif', serif;
       font-family: 'Anton', sans-serif;
   }
-  .womens-meas img{
+  /* .womens-meas img{
       float: center;
   }
   *{
@@ -97,4 +97,4 @@ table{
     margin-bottom: 5px;
     position: absolute;
   }
-   */ */
+   */ */ */
