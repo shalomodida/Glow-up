@@ -80,7 +80,13 @@ background-color: azure;
   background-color:azure !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
-  font-style: italic;
+  text-align: center;
+  text-transform: uppercase;
+  color: blue;
+}
+.logo p{
+  text-transform: lowercase;
+  color: black;
 }
 /*#img1{
   display: block;
