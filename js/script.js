@@ -20,7 +20,7 @@ $(document).ready(function(){
          alert("Please ensure you fill in all the fields!");
      }
       else{
-          alert(" Thank you "  + " You have succesfully been signed for Glow-up collection,stay with us for unique designs.")
+          alert(" Thank you. "  + " You have succesfully been signed-up for Glow-up collection,stay with us for unique designs.")
      }
   })
 })
