@@ -48,3 +48,38 @@ $("document").ready(function(){
         alert("Kindly add more to the Cart");
     })
 })
+    //my javaScript//
+    $("document").ready(function(){
+        $("#home").click(function(){
+            var a=$("#alt").val();
+            var b=$("#alt2").val();
+            var c=$("#alt3").val();
+            var d=$("#alt4").val();
+            var e=$("#alt5").val();
+            var f=$("#alt6").val();
+            var g=$("#alt7").val();
+            var h=$("#alt8").val();
+            var i=$("#alt9").val();
+            var j=$("#alt10").val();
+            var k=$("#alt11").val();
+            var l=$("#alt12").val();
+            var total=(a+b+c+d+e+f+g+h+i+j+k+l);
+    
+            
+                    if(a==="1300"){
+                        alert("You have Chosen Batenberg Lace and the amount is 1300");
+                    }
+                    else if(b==="1400"){
+                          alert("You have Chosen Bedford and your total amount is 1,300Ksh")
+                          alert("Thank you for shopping with us")
+                    }
+                });
+            });
+           
+        
+        
+    
+
+        
+    
+        

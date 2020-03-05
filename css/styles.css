@@ -9,6 +9,7 @@
     font-family: 'Anton', sans-serif;
     font-size: 50px;
     color:red;
+    text-decoration: underline;
 }
 .three{
     background-color: azure;
