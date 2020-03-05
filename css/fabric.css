@@ -8,7 +8,7 @@
     margin-bottom:35px;
     font-family: 'Anton', sans-serif;
     font-size: 50px;
-    color:red;
+    color:maroon;
     text-decoration: underline;
 }
 .three{
@@ -20,10 +20,10 @@
     background-color: azure;
 }
 .four{
-    font-family: 'Anton', sans-serif;
-    font-family: 'Dancing Script', cursive;
+    font-family:Arial, Helvetica, sans-serif;
+  /*  font-family: 'Dancing Script', cursive;*/
     text-align: center;
-    font-size: 45px;
+    font-size: 30px;
     background-color:azure ;
 }
 h2{
@@ -32,23 +32,23 @@ h2{
     font-family: 'Dancing Script', cursive;
     font-family: 'Cinzel', serif;
     margin-top: 60px;
-    color:red;
+    color:maroon;
     margin-left: 150px;
     font-weight: bolder;
 }
 .love{
     margin-left:30px;
     margin-top:15px;
-    font-family: 'Anton', sans-serif;
-    font-family: 'Dancing Script', cursive;
+    font-family: Arial, Helvetica, sans-serif;
+    /*font-family: 'Dancing Script', cursive;*/
     text-align: center;
     font-size: 30px;
 }
 .fear{
     margin-left: 60px;
     margin-top: 15px;
-    font-family: 'Anton', sans-serif;
-    font-family: 'Dancing Script', cursive;
+    font-family: Arial, Helvetica, sans-serif;
+   /* font-family: 'Dancing Script', cursive;*/
     text-align: center;
     font-size: 30px;
 }
@@ -59,19 +59,19 @@ h2{
 #apple{
     text-align: center;
     font-size: 20px;
-    font-family: 'Anton', sans-serif;
-    font-family: 'Dancing Script', cursive;
+    font-family: Arial, Helvetica, sans-serif;
+   /* font-family: 'Dancing Script', cursive;
     font-family: 'Cinzel', serif;
-    font-family: 'Courgette', cursive;
-    color:red;
+    font-family: 'Courgette', cursive;*/
+    color:maroon;
 }
 #no{
-    background-color: red;
+    background-color:maroon;
     margin-top: 40px;
     margin-left: 30px;
     font-size: 30px;
     color:white;
-    font-family: 'Anton', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-family: 'Dancing Script', cursive;
     font-family: 'Cinzel', serif;
     font-weight: bold;
@@ -169,7 +169,45 @@ h2{
 }
 #home{
     font-size: 25px;
-    background-color: red;
+    color:white;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    display:block;
+}
+#select{
+    font-size: 25px;
+    color:white;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    display:block;
+}
+#select2{
+    font-size: 25px;
+    color:white;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    display:block;
+}
+#button{
+    font-size: 25px;
     color:white;
     font-family: 'Anton', sans-serif;
     font-family: 'Dancing Script', cursive;
@@ -179,4 +217,6 @@ h2{
     margin-top: 40px;
     margin-bottom: 40px;
     margin-left: 700px;
+    display:block;
+    background-color: maroon;
 }
