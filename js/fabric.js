@@ -52,19 +52,19 @@ $("document").ready(function(){
     $("document").ready(function(){
         $("#button").click(function(){
            
-            var coth=$("#cloth[name=value]:selected").val();
+            var cloth=parseInt($("#cloth[value=1300]")).valueOf();
             
             var total=$()
-                    if(coth==="true"){
-                        alert("You have not Chosen any Amount!!");
+                    if(cloth==="1300"){
+                        alert("Your Amount is 1300ksh!!");
                     }
                     else {
                         alert("total amount is 1600ksh!!")
-                        alert("we have received the information");
-                        prompt("would you love another design?");
-                        alert("Were happy to have been of help")
-                        prompt("Do you live within Kenya?");
-                        alert("Wait for our call");
+                        // alert("we have received the information");
+                        // prompt("would you love another design?");
+                        // alert("Were happy to have been of help")
+                        // prompt("Do you live within Kenya?");
+                        // alert("Wait for our call");
                     }
                 });
                 event.preventDefault();
