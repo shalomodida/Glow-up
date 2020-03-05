@@ -1,12 +1,12 @@
 body{
-    background-image:url('./img/latest/image.png') ;  
+    background-image:url('/home/shalom/Desktop/Glow-up/img/latest/image.png');  
     height:100vh ;
     width: 100%;
     background-repeat: no-repeat;
 } 
 
 input[type=text], input[type=password] {
-    width: 100%;
+    width: 75%;
     padding: 15px;
     margin: 5px 0 22px 0;
     display: inline-block;
@@ -22,9 +22,9 @@ input[type=text], input[type=password] {
   
   
   button {
-    background-color:maroon;
+    background-color:maroon; 
     color: white;
-    padding: 14px 20px;
+    padding: 14px 17px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
@@ -63,7 +63,8 @@ input[type=text], input[type=password] {
     width: 100%; 
     height: 100%; 
     overflow: auto; 
-    background-color: goldenrod;
+    background-image:url('/home/shalom/Desktop/Glow-up/img/latest/image.png');
+    background-repeat: no-repeat;
     padding-top: 50px;
   }
   

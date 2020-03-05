@@ -45,7 +45,7 @@ header .carousel-inner .item {
     color: maroon;
 }
 .carousel-caption a {
-    background: maroon;
+    /* background: maroon; */
     padding: 15px 35px;
     display: inline-block;
     margin-top: 15px;
@@ -62,7 +62,7 @@ header .carousel-inner .item {
     text-align: center;
     cursor: pointer;
     outline: none;
-    color:maroon;
+    color:maroon; 
     background-color: rgb(202, 199, 5);
     border: none;
     border-radius: 15px;

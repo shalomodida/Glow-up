@@ -20,7 +20,34 @@ $(document).ready(function(){
          alert("Please ensure you fill in all the fields!");
      }
       else{
-          alert(" Thank you "  + " You have succesfully been signed for Glow-up collection,stay with us for unique designs.")
+          alert(" Thank you. "  + " You have succesfully been signed-up for Glow-up collection,stay with us for unique designs.")
      }
   })
+  function finder(){
+    var searchedWord = document.getElementById('searchedWord').value;
+    if(searchedWord=="about"){
+       var mySearchResult = window.open("about.html");
+
+    //  if else(searchedWord==""){
+    //     var mySearchResult = window.open("ready.html");
+        
+    }else{
+       alert("Genre not listed");
+    }
+ }
+ function prompt(){
+    var searchedWord = document.getElementById('promote').value;
+       var mySearchResult = window.open("about.html");
+       }
 })
+
+
+
+
+
+
+
+
+
+
+
