@@ -12,36 +12,32 @@
 </head>
 
 <body>
-    <div class="card" id="contact">
-        <div class="contact">
-            <h2 id="contact">Contact Us:</h2>
-            <form action="" id="name-form">
-                <div class="form-group">
-                    <input type="text" placeholder="Name..." class="form-control " id="name">
-                    <br> <br><br>
-                    <input type="email" placeholder="Email.." class="form-control" id="email">
-                </div>
-                <br><br> <br><br>
-                <textarea name="" id="area" cols="30" rows="10" placeholder="Your message here..."
-                    class="form-control"></textarea>
-                <br><br><br><br>
-                <button type="submit" class="button" onclick="validate()">Submit</button>
-
-            </form>
-        </div>
+    <div class="cont">
+        <h1>CONTACT GLOW-UP</h1>
     </div>
+    <br><br>
     <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <p class="email"><i class='far fa-comment-alt' style='font-size:24px;color:maroon'></i> Glow-Up/@glow-ip
-                    98.gmail.com</p>
-                <p class="tel"><i class='fas fa-phone' style='font-size:24px;color:maroon'></i>
-                    Telephone:0754-6455-46676778</p>
-            </div>
-        </div>
-    </div>
-    <p id="copyright">&copy:2020|glow-up.</p>
-    <div class="line">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="city">City</label>
+          <select id="city" name="city">
+            <option value="nairobi">Nairobi</option>
+            <option value="kisumu">Kisumu</option>
+            <option value="mombasa">Mombasa</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+   
     <footer>
         <a href="https://www.facebook.com"><img src="img/facebook.png" alt="fb" id="img8"></a>
         <a href="https://twitter.com/home"><img src="img/twitter.png" alt="tw" id="img9"></a>
