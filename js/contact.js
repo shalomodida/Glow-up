@@ -1,20 +1,26 @@
 function validate() {
 
-  var name = document.getElementById("name").value;
-  var email = document.getElementById("email").value;
-  var text = document.getElementById("area").value;
-
-  if (name === "") {
-      alert("Please fill in your name");
+  var firstName = document.getElementById("firstName").value;
+  var secondName = document.getElementById("secondName").value;
+  var city = document.getElementById("city").value;
+  var subject =  document.getElementById("subject").value;
+  if (firstName === "") {
+      alert("Please fill in your first name");
       return false;
 
-  } else if (email === "") {
-      alert("Please insert your email!");
+  } else if (secondName=== "") {
+      alert("Please insert your second name!");
       return false;
 
-  } else if (text === "") {
+  } else if (city === "") {
 
-      alert("There is no text to submit!");
+      alert("Please select your city!");
+
+  } else if (subject=== "") {
+
+    alert("Please leave us a message!");
+
+
   } else {
 
       alert("We have recieved your message dear " + name + " and we will get back to you");
