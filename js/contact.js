@@ -8,15 +8,15 @@ function validate() {
       alert("Please fill in your first name");
       return false;
 
-  } else if (secondName=== "") {
+  } else if (secondName== "") {
       alert("Please insert your second name!");
       return false;
 
-  } else if (city === "") {
+  } else if (city == "") {
 
       alert("Please select your city!");
 
-  } else if (subject=== "") {
+  } else if (subject== "") {
 
     alert("Please leave us a message!");
 
